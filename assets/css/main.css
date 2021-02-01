@@ -1674,6 +1674,35 @@ input, select, textarea {
 			opacity: 0;
 		}
 
-.envelope_icon{
-	/* z-index: 1; */
+
+
+
+
+.test {
+	overflow: hidden;
+	max-height: 250px;
+	min-height: 250px;
+}
+
+.photobanner {
+	/* background: url("../../images/about/project1.png") repeat-y; */
+	/* height: 1000px;
+	width: 900px; */
+	/* max-height: 270px;
+	min-height: 270px; */
+	animation: slide 45s linear infinite;
+}
+
+@keyframes slide {
+	0% {
+		transform: translate3d(0, 0, 0);
+		/* top: 0; */
+	}
+
+	100% {
+		/* transform: translate3d(0, -1800px, 0); */
+		transform: translate3d(0, -2800px, 0);
+		
+		/* top:10 */
+	}
 }
