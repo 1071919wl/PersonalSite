@@ -929,10 +929,12 @@ input, select, textarea {
 				line-height: 2.25rem;
 				text-align: center;
 				width: 2.25rem;
+				transition: 0.1s;
 			}
 
 				ul.icons li a:hover {
 					background-color: rgba(255, 255, 255, 0.075);
+					transform: scale(1.1);
 				}
 
 				ul.icons li a:active {
@@ -1671,3 +1673,7 @@ input, select, textarea {
 		body.is-preload #footer {
 			opacity: 0;
 		}
+
+.envelope_icon{
+	/* z-index: 1; */
+}
